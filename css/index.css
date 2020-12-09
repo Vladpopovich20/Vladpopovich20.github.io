@@ -1,0 +1,126 @@
+
+.sulka{
+	margin:0;
+	padding:0;
+	text-align: center;
+}
+.sulka a{
+	color:aqua;
+	text-transform: uppercase;
+	text-decoration:none;
+	background-color: aqua; 
+	border-radius: 25px; 
+	font-family: Times New Roman;
+	font-size: 20px;
+}
+
+body{
+	font-family: "Monotype Corsiva" Cursive;"
+padding: 0;
+margin: 0;
+
+}
+.clearfix:after {  
+content:'';
+display: table;
+width: 100%;
+clear: both;
+
+}
+header{
+	background:url(../img/first-bg.jpg) no-repeat center top / cover;
+
+padding-bottom: 160px; 
+}
+.container{
+	width: 930px;
+	margin:0 auto;
+}
+
+div {
+	box-sizing: border-box;
+}
+.logo{
+  margin: 41px 0 0 0;
+  float:left;
+} 
+
+nav {
+	float: right;
+	margin-top: 50px;
+}
+
+.menu{
+
+	padding: 0;
+	margin: 0;
+	display: block;
+}
+.menu li {
+	float: left;
+	display: block;
+	margin-right: 41px;
+}
+.menu li a{
+
+	color: aqua;
+	text-decoration: none;
+	text-transform: uppercase; 
+	font-size: 14px;
+
+}
+.menu li a:hover{
+	background-color: #f65444;
+	transition: 0.5s;
+}
+.menu li a: hover:before {
+		content: "";
+	width: 110px;
+	height: 10px;
+	position: absolute;
+	top: 60px;
+	z-index: 10px;
+	margin-right: -4px;
+	border-bottom: 10px solid #3d2f3e;
+	transition: 0.5s;
+	font-weight: bolder;
+}
+
+
+.titles {
+	font-size: 40px;
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+}
+.titles-first {
+	font-size: 50px;
+	font-weight: bolder;
+	color:aqua;
+	text-align: center;
+	text-transform: uppercase;
+	margin-top: 80px;
+	
+}
+.sketchfab-embed-wrapper {
+	display: block;
+	text-align:center;
+	padding-top:100px;
+}
+.sketchfab-embed-wrapper:hover{
+	transform: scaleX(1);
+	transform-delay: 0.5s; 
+	transition: 0.5s;
+    transform: scale(1.2);
+    opacity: 1;
+}
+.viget
+{
+	padding-top:20px;
+	text-align: center; 
+	padding-bottom: 20px;
+}
+footer{
+	background-color:  black;
+}
+
